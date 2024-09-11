@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    background-color: brown;
+}
+
+#contenedor{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap:16px;
+    max-width: 1200px;
+    padding:16px;
+
+}
+.car{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0 , 0,0.1);
+    padding: 16px;
+    text-align: center;
+}
+.card h3{
+    margin: 0;
+    font-size: 1.2 em;
+}
