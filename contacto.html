@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado 2 Estrellas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <img class="titulo" src="img/2estrellas.jpg" alt="Icono">
+            <h1 class="titulo">Supermercado 2 Estrellas</h1>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h2 class="centrado">Formulario de contacto</h2>
+    <div class="contenedor">
+        <div>
+            <form class="formulario" id="ingresos">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombres" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Apellidos" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" placeholder="alguien@correo.com" required>
+                <label for="telefono">Teléfono o celular:</label>
+                <input type="tel" id="telefono" pattern="[0-9]+" placeholder="Solo números. Hasta 10. Ej: 2284999999" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" cols="30" rows="10" placeholder="Breve mensaje sobre lo requerido" required></textarea>
+                <button class="boton" id="enviar">Enviar</button>
+            </form>
+        </div>
+        </div>
+            <p class="destacado2">Teléfono de contacto: 0800-44444444. Correo electrónico: contacto@2estrellas.com.ar</p>
+        <div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>       
+    <script src="js/contacto.js"></script>
+    <footer>
+        <div>
+            <p>&copy; 2024 Supermercado 2 Estrellas. Todos los derechos reservados.</p>
+            <p>Desarrollado por: Marcelo Daniel Alfieri / Miguel Angel Etcheverry</p>
+        </div>
+    </footer>
+</body>
+</html>
