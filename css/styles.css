@@ -1,0 +1,155 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items:end;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.encabezado {
+    align-items: center;
+    background-color:#333;
+    color: #fff;   
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+/*Estilos menú*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:left;
+}
+
+nav ul li {
+    display:inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    color: #8964a7;
+}
+
+.ordenar {
+    display:flex;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.destacado {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+section p {
+    text-align:justify;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.producto img:hover{
+    border-style:solid;
+    border-color: #8964a7;
+}
+.tarjeta {
+    display:inline;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+.ajuste {
+    max-width: 50%;
+    height: auto;
+    width: 10 px; /* Define el ancho deseado */
+    height: 10 px; /* Ajusta automáticamente la altura para mantener la proporción */
+}
+.destacado2 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.imagen {
+    max-width: 10%;
+    height: 20%;    
+}
+/*Estos estilos son para la pagina de contacto*/
+.formulario {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    padding-right: 100px;
+}
+/*agregado al titulo formulario de contacto*/
+.centrado{
+    text-align: center;
+}
+/*boton enviar*/
+.boton {
+    margin: 5px;
+    font-size: larger;
+    background-color: #333;
+    color: #f0f0f0  ;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/*Estilos pagina producto*/
+.contenedor1{
+    display:flex;
+    flex-flow: wrap;
+    justify-content:center;
+    align-items: end;
+    align-content: space-around;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+    width: 100%;  
+}
+
+/*Cambia colores del boton Guardar Compra*/
+.desactivar{
+    background-color: #adaaaa;
+}
